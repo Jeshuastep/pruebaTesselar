@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    font-family: Raleway;
+  }
+
+.barraTop{
+    background-color: #333;
+    color: white;
+    top: 0;
+    padding: 5px 0px 5px 0px; 
+    width: 100%;
+    font-size: 1em;
+}
+.login{
+    float: right;
+}
+.barraBuscador{
+    padding: 25px 0px 25px 0px; 
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+.menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  li a:hover:not(.active) {
+    border-bottom: 5px solid #333;
+  }
+  
+  .active {
+      border-bottom: 5px solid #333;
+  }
+  .iconoGrande{
+      padding-top: 3px;
+      font-size: 2.5em;
+  }
+  .carritoResumen{
+    background-color: rgb(235, 235, 235);
+  }
+  .flechaCarrito{
+      float: right;
+      z-index: 300;
+  }
+  .textoCarrusel{
+      padding-bottom: 15%;
+  }
+  .floatLeft{
+      float: left;
+  }
+  .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #FFF;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+  }
+  .hovereffect:hover img {
+    -webkit-filter: grayscale(1) blur(3px);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    overflow: hidden;
+    padding: 0.5em 0;
+    background-color: transparent;
+  }
+  
+  .hovereffect h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+  
+  .hovereffect:hover h2:after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }

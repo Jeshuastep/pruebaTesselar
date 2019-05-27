@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+.barraTop{
+    background-color: #333;
+    color: white;
+    top: 0;
+    padding: 5px 0px 5px 0px; 
+    width: 100%;
+    font-size: 1em;
+}
+.login{
+    float: right;
+}
+.barraBuscador{
+    padding: 25px 0px 25px 0px; 
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  li a:hover:not(.active) {
+    border-bottom: 5px solid #333;
+  }
+  
+  .active {
+      border-bottom: 5px solid #333;
+  }
+  .iconoGrande{
+      font-size: 2.5em;
+  }
+  .carritoResumen{
+    background-color: rgb(235, 235, 235);
+  }
